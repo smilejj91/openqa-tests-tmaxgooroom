@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 0,
+      "ypos": 0,
+      "width": 200,
+      "height": 200
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "bootloader"
+  ]
+}

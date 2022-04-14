@@ -1,0 +1,14 @@
+{
+  JobTemplates => [
+                    { group_name => "tmaxgooroom", machine => { name => "64bit" }, prio => 20, product => { arch    => "x86_64", distri  => "tmaxgooroom", flavor  => "live", group   => "tmaxgooroom-live", version => "*", }, test_suite => { name => "tmaxgooroom-live" }, },
+                  ],
+  Machines     => [
+                    { backend => "qemu", name => "64bit", settings => [ { key => "CDMODEL", value => "ide-cd" }, { key => "PART_TABLE_TYPE", value => "mbr" }, { key => "QEMUCPU", value => "kvm64" }, { key => "QEMUCPUS", value => 4 }, { key => "QEMUMACHINE", value => "pc-i440fx-2.1" }, { key => "QEMURAM", value => 4096 }, { key => "QEMUVGA", value => "std" }, { key => "QEMU_VIRTIO_RNG", value => "true" }, { key => "WORKER_CLASS", value => "qemu_x86_64" }, ], },
+                  ],
+  Products     => [
+                    { arch     => "x86_64", distri   => "tmaxgooroom", flavor   => "live", settings => [ { key => "ROOT_PASSWORD", value => "toor" }, { key => "TEST_TARGET", value => "ISO" }, { key => "USER_LOGIN", value => "root" }, { key => "USER_PASSWORD", value => "toor" }, ], version  => "*", },
+                  ],
+  TestSuites   => [
+                    { name => "tmaxgooroom-live", settings => [ { key => "POSTINSTALL", value => "desktop_browser _collect_data" }, ], },
+                  ],
+}

@@ -1,0 +1,63 @@
+#!/usr/share/openqa/script/load_templates
+#
+# openSUSE Machines, Products, TestSuites and JobTemplates
+#
+# use load_templates to load the file into the database
+#
+{
+  JobTemplates => [
+                    {
+                      group_name => "TmaxGooroom 21 Common",
+                      machine => { name => "64bit" },
+                      prio => 50,
+                      product => {
+                        arch    => "x86_64",
+                        distri  => "common",
+                        flavor  => "live",
+                        group   => "tmaxgooroom-21-common",
+                        version => "*",
+                      },
+                      test_suite => { name => "tmaxgooroom-live" },
+                    },
+                  ],
+  Machines     => [
+                    {
+                      backend => "qemu",
+                      name => "64bit",
+                      settings => [
+                        { key => "CDMODEL", value => "ide-cd" },
+                        { key => "PART_TABLE_TYPE", value => "mbr" },
+                        { key => "QEMUCPU", value => "kvm64" },
+                        { key => "QEMUCPUS", value => "4" },
+                        { key => "QEMURAM", value => "4096" },
+                        { key => "QEMUVGA", value => "std" },
+                        { key => "QEMU_VIRTIO_RNG", value => "true" },
+                        { key => "QEMUMACHINE", value => "pc-i440fx-2.1" },
+                        { key => "WORKER_CLASS", value => "qemu_x86_64" },
+                      ],
+                    },
+                  ],
+  Products     => [
+                    {
+                      arch     => "x86_64",
+                      distri   => "common",
+                      flavor   => "live",
+                      settings => [
+                        { key => "ISO_MAXSIZE", value => 999999999 },
+                        { key => "TEST_TARGET", value => "ISO"},
+                        { key => "LIVECD", value => 1 },
+                        { key => "USER_ID", value => "tmaxname"},
+                        { key => "USER_PASSWORD", value => "tmax1234!"},
+                      ],
+                      version  => "*",
+                    },
+                  ],
+  TestSuites   => [
+                    {
+                      name => "tmaxgooroom-live",
+                      settings => [
+                        {},
+                      ],
+                    },
+                  ],
+}

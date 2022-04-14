@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 419,
+      "ypos": 513,
+      "width": 190,
+      "height": 38 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "gnome-initial-setup-finish-button"
+  ]
+}

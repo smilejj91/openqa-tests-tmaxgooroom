@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 470,
+      "ypos": 33,
+      "width": 88,
+      "height": 26 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "gnome-initial-setup-user-account"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 473,
+      "ypos": 171,
+      "width": 78,
+      "height": 25 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "gnome-software-welcome"
+  ]
+}

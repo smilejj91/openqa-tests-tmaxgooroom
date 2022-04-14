@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 40,
+      "ypos": 362,
+      "width": 366,
+      "height": 40,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "remove-usb"
+  ]
+}

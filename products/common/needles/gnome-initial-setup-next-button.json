@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 944,
+      "ypos": 36,
+      "width": 69,
+      "height": 25 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "gnome-initial-setup-next-button"
+  ]
+}

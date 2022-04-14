@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 429,
+      "ypos": 505,
+      "width": 167,
+      "height": 32 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "gnome-software-welcome-button"
+  ]
+}

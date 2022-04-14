@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 348,
+      "ypos": 730,
+      "width": 38,
+      "height": 36 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "desktop-gnome-software-button"
+  ]
+}

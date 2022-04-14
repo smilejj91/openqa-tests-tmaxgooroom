@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 761,
+      "ypos": 437,
+      "width": 18,
+      "height": 19 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "gnome-initial-setup-timezone-seoul"
+  ]
+}

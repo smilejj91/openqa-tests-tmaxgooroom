@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 473,
+      "ypos": 33,
+      "width": 76,
+      "height": 30 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "gnome-initial-setup-privacy"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 494,
+      "ypos": 729,
+      "width": 37,
+      "height": 36 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "desktop-togate-browser-button"
+  ]
+}

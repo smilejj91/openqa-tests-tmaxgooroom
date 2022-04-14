@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 5,
+      "type": "match",
+      "height": 33,
+      "width": 43,
+      "ypos": 732
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "desktop-start-menu-button-clicked"
+  ]
+}

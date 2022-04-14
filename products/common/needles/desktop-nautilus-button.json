@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 395,
+      "ypos": 730,
+      "width": 40,
+      "height": 34 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "desktop-nautilus-button"
+  ]
+}

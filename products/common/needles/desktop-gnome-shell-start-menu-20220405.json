@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "xpos": 9,
+      "ypos": 537,
+      "width": 32,
+      "height": 179,
+      "type": "match"
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "gnome-shell-start-menu"
+  ]
+}

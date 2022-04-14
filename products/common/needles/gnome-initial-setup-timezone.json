@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 480,
+      "ypos": 34,
+      "width": 65,
+      "height": 28 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "gnome-initial-setup-timezone"
+  ]
+}

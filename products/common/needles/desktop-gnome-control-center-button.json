@@ -1,0 +1,15 @@
+{
+  "area": [
+    {
+      "type": "match",
+      "xpos": 444,
+      "ypos": 731,
+      "width": 39,
+      "height": 34 
+    }
+  ],
+  "properties": [],
+  "tags": [
+    "desktop-gnome-control-center-button"
+  ]
+}
